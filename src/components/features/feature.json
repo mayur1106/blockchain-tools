@@ -1,0 +1,37 @@
+{
+    "features":[{
+    "name":"Get Network Id",
+    "description":"Network id of the current network on which blockain is running ",
+    "action":"Get Network Id",
+    "callbackFunction":"getNetworkId"
+  },{
+    "name":"Get Latest Block",
+    "description":"It is the latet block at the time of running code on your blockchain network",
+    "action":"Get Latest Block",
+    "callbackFunction":"getLatestBlock"
+  },
+  {
+    "name":"Get Current Gas Price",
+    "description":"A price which you need to pay when performing transaction on blockchain.",
+    "action":"Get gas price of current network",
+    "callbackFunction":"getLatestBlock"
+  },
+  {
+    "name":"Get Current account balance",
+    "description":"Get balance of ethereum account connected to the blockchain.",
+    "action":"Get account balance",
+    "callbackFunction":"getCurrentBalance"
+  },
+  {
+    "name":"Get transaction count",
+    "description":"To get the total number of transactions sent by this account",
+    "action":"Get account transaction count",
+    "callbackFunction":"getTransactionCount"
+  },
+  {
+    "name":"Create New Account",
+    "description":"Create a new account on the Ethereum blockchain using Web3.js.",
+    "action":"Create New Account",
+    "callbackFunction":"createAccount"
+  }]
+}
